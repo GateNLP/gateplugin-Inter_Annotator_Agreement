@@ -16,7 +16,7 @@ package gate.iaaplugin;
 /**
  * Get a contingency table (or confusion matrix)and compute the IAA measures
  * such as observed agreement, category specific agreements, Cohen's Kappa, and
- * S&C's Kappa. It also includes a few methods for adding and averaging the
+ * S&amp;C's Kappa. It also includes a few methods for adding and averaging the
  * measures and printing the results.
  */
 public class ContingencyTable {
@@ -34,7 +34,7 @@ public class ContingencyTable {
   public boolean isAgreementAvailable = false;
   /** Cohen's kappa. */
   public float kappaCohen = 0;
-  /** Scott's pi or Siegel & Castellan's kappa */
+  /** Scott's pi or Siegel &amp; Castellan's kappa */
   public float kappaPi = 0;
   /** Assignment matrix for computing the all way kappa. */
   float[][] assignmentMatrix;
