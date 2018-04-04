@@ -16,6 +16,9 @@
 	<groupId>uk.ac.gate.plugins</groupId>
 	<artifactId>inter-annotator-agreement</artifactId>
 	<version>8.5-SNAPSHOT</version>
+	
+	<name>Inter-Annotator Agreement</name>
+	<description>A PR for calculating numerous Inter-Annotator Agreement measures</description>
 
 	<licenses>
 		<license>
